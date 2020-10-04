@@ -1,2 +1,2 @@
 # ztm-react-master-project
-Ecommerce site from ZTM React developer course
+First version of the ilern platform dashboard, based on the ecommerce site from ZTM
