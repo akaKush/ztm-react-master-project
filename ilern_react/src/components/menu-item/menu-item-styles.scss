@@ -10,33 +10,31 @@
   margin: 0 7.5px 15px;
   padding: 10px 10px;
   
-  
 
-  &.large {
-    height: 300px;
-  }
-
-
-  &:first-child {
+  //nose perque serveix aixo ?¿
+  /*&:first-child {
     margin-right: 7.5px;
   }
 
   &:last-child {
     margin-left: 7.5px;
-  }
+  }*/
 
  .background {
-    height: auto;
+    height: 200px;
     width: auto;
-    background-position: top;
+    background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    //filter: blur(1px);
+
+
+   
   }
 
+
   .content {
-    position: bottom;
-    height: 90px;
+    font-family: 'Nunito', sans-serif;
+    height: 200px;
     padding: 0 25px;
     display: flex;
     flex-direction: column;
@@ -44,18 +42,19 @@
     justify-content: center;
     border: none;
     border-radius: 1em;
-    filter: blur(0px);
+    background-color: white;
+    opacity: 0.7;
     
 
     .title {
-      font-weight: bold;
+      font-weight: 920;
       margin-bottom: 6px;
       font-size: 22px;
       color: #000000;
     }
 
     .subtitle {
-      font-weight: lighter;
+      font-weight: bold;
       font-size: 16px;
       color: #000000;
     }
