@@ -1,6 +1,5 @@
 import React from 'react';
 import './homepage_styles.scss';
-
 import Directory from '../../components/directory/directory-component';
 
 //La idea es posar My courses i Instant Meeting a dalt més grossos,

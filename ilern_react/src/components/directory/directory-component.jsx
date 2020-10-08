@@ -10,32 +10,32 @@ class Directory extends React.Component {
             sections :[
             {
                 title: 'My Courses',
-                imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
+                imageUrl: 'https://www.flaticon.es/svg/static/icons/svg/1783/1783361.svg',
                 id: 1,
                 linkUrl: 'shop/hats'
             },
             {
                 title: 'Instant Meeting',
-                imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
+                imageUrl: 'https://www.flaticon.es/svg/static/icons/svg/1783/1783454.svg',
                 id: 2,
                 linkUrl: 'shop/jackets'
             },
             {
-                title: 'sneakers',
-                imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
+                title: 'My Account',
+                imageUrl: 'https://www.flaticon.es/svg/static/icons/svg/1783/1783396.svg',
                 id: 3,
                 linkUrl: 'shop/sneakers'
             },
             {
-                title: 'womens',
-                imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
+                title: 'Upgrade Account',
+                imageUrl: 'https://www.flaticon.es/svg/static/icons/svg/1783/1783279.svg',
                 size: 'large',
                 id: 4,
                 linkUrl: 'shop/womens'
             },
             {
-                title: 'mens',
-                imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
+                title: 'Contact Us',
+                imageUrl: 'https://www.flaticon.es/svg/static/icons/svg/1783/1783316.svg',
                 size: 'large',
                 id: 5,
                 linkUrl: 'shop/mens'
@@ -49,8 +49,8 @@ class Directory extends React.Component {
             <div className='directory-menu'>
                 { //quan vulguem passar les props, si les DESTRUCTUREM, 
                   //llavors no cal que escriguim cada cop el props.elquesigui
-                    this.state.sections.map(({title, imageUrl, id}) => (
-                        <MenuItem key={id} title={title}/>
+                    this.state.sections.map(({title, imageUrl, id, size}) => (
+                        <MenuItem key={id} title={title} imageUrl = {imageUrl} size={size} />
                     ))
                 }
             </div>
