@@ -5,17 +5,14 @@ Prototype of ilern platform dashboard, based on the ecommerce site from ZTM
 
 **Quick notes about React**
 
-**React Router**
++**React Router**
 Tenim la manera de crear diferents pàgines i enrutar-les entre elles amb _react-router-dom_ directament desde front.
 
 En el moment d'afegir un component a App.js:
 ```return(
 <div>
-<Route exact={true/false} path='/' component={NomDelComponentPrincipal} />
-<Route exact={true/false} path='/' component={NomDelComponentSecundari} />
-
-
-
+<Route exact={true/false} path='/pathHomePage' component={NomDelComponentPrincipal} />
+<Route exact={true/false} path='/pathSecondaryPage' component={NomDelComponentSecundari} />
 ```
 
 notes: 
